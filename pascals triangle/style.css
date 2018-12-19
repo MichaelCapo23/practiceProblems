@@ -10,6 +10,7 @@ div {
 .row1 {
     height: 10vh;
     width: 100vw;
+    margin-bottom: 1vh;
 }
 
 .row1 > div {
@@ -18,11 +19,14 @@ div {
     background-color: #5bc0de;
     position: relative;
     left: var(--left);
+    text-align: center;
+    vertical-align: top;
 }
 
 .row2 {
     height: 10vh;
     width: 100vw;
+    margin-bottom: 1vh;
 }
 
 .row2 > div {
@@ -31,11 +35,15 @@ div {
     background-color: #5bc0de;
     position: relative;
     left: calc(var(--left) - 6%);
+    text-align: center;
+    vertical-align: top;
 }
 
 .row3 {
     height: 10vh;
     width: 100vw;
+    margin-bottom: 1vh;
+
 }
 
 .row3 > div {
@@ -44,11 +52,14 @@ div {
     background-color: #5bc0de;
     position: relative;
     left: calc(var(--left) - 12%);
+    text-align: center;
+    vertical-align: top;
 }
 
 .row4 {
     height: 10vh;
     width: 100vw;
+    margin-bottom: 1vh;
 }
 
 .row4 > div {
@@ -57,11 +68,14 @@ div {
     background-color: #5bc0de;
     position: relative;
     left: calc(var(--left) - 18%);
+    text-align: center;
+    vertical-align: top;
 }
 
 .row5 {
     height: 10vh;
     width: 100vw;
+    margin-bottom: 1vh;
 }
 
 .row5 > div {
@@ -70,4 +84,7 @@ div {
     background-color: #5bc0de;
     position: relative;
     left: calc(var(--left) - 24%);
+    text-align: center;
+    vertical-align: top;
+
 }
