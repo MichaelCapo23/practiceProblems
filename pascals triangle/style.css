@@ -1,0 +1,73 @@
+:root {
+    --width: 15%;
+    --left: 50%;
+}
+
+div {
+    display: inline-block;
+}
+
+.row1 {
+    height: 10vh;
+    width: 100vw;
+}
+
+.row1 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: var(--left);
+}
+
+.row2 {
+    height: 10vh;
+    width: 100vw;
+}
+
+.row2 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: calc(var(--left) - 6%);
+}
+
+.row3 {
+    height: 10vh;
+    width: 100vw;
+}
+
+.row3 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: calc(var(--left) - 12%);
+}
+
+.row4 {
+    height: 10vh;
+    width: 100vw;
+}
+
+.row4 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: calc(var(--left) - 18%);
+}
+
+.row5 {
+    height: 10vh;
+    width: 100vw;
+}
+
+.row5 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: calc(var(--left) - 24%);
+}
