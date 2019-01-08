@@ -22,15 +22,17 @@ function getNum() {
 function getConst(number) {
     var stringNum = number.toString();
     var arrNumber = Array.from(stringNum);
-    var newArrNumber = arrNumber;
+    var newArrNumber = arrNumber.map(value => {return value});
     var sortedSecond = arrNumber.sort((a,b) => {return a-b});
-    var sortedFirst = sortedSecond.sort((a, b) => {return b- a});
+    var sortedFirst = newArrNumber.sort((a, b) => {return b- a});
     sortedSecond = sortedSecond.join("");
     sortedFirst = sortedFirst.join("");
     var newNum = sortedFirst - sortedSecond;
     count++;
     if(newNum !== 6174 && count < 20) {
         getConst(newNum)
+    } else {
+        console.log("you got it!");
     }
 
 }

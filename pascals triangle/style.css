@@ -1,0 +1,90 @@
+:root {
+    --width: 15%;
+    --left: 50%;
+}
+
+div {
+    display: inline-block;
+}
+
+.row1 {
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 1vh;
+}
+
+.row1 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: var(--left);
+    text-align: center;
+    vertical-align: top;
+}
+
+.row2 {
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 1vh;
+}
+
+.row2 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: calc(var(--left) - 6%);
+    text-align: center;
+    vertical-align: top;
+}
+
+.row3 {
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 1vh;
+
+}
+
+.row3 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: calc(var(--left) - 12%);
+    text-align: center;
+    vertical-align: top;
+}
+
+.row4 {
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 1vh;
+}
+
+.row4 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: calc(var(--left) - 18%);
+    text-align: center;
+    vertical-align: top;
+}
+
+.row5 {
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 1vh;
+}
+
+.row5 > div {
+    height: 100%;
+    width: var(--width);
+    background-color: #5bc0de;
+    position: relative;
+    left: calc(var(--left) - 24%);
+    text-align: center;
+    vertical-align: top;
+
+}
