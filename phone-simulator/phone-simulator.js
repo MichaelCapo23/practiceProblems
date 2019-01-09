@@ -3,7 +3,8 @@ $(document).ready(startApp);
 function startApp() {
     const inputs = [7,3];
     let array = getCombos(inputs);
-    console.log(array);
+    const text = `You entered ${inputs[0]} and ${inputs[1]} the possible combinations are:  ${array}`;
+    $('.answer').text(text);
 }
 
 function getCombos(inputs) {
